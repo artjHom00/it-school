@@ -4,7 +4,6 @@ import { Icon } from '@iconify/vue'
 const colorMode = useColorMode()
 
 const handleThemeChange = () => {
-  console.log("🚀 ~ handleThemeChange ~ colorMode.preference:", colorMode.preference)
   switch (colorMode.preference) {
     case 'light':
       colorMode.preference = 'dark'
