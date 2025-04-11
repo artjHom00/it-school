@@ -7,7 +7,7 @@
     <div class="absolute top-0 -right-1/2 w-1/2 h-[70vh] bg-blue-500/60 rounded-full blur-[999px] opacity-30 overflow-hidden"></div>
 
     <Header class="z-50 relative" />
-    <main class="container mx-auto px-4 py-8 md:py-24 flex flex-col md:flex-row items-center z-10">
+    <main class="relative container mx-auto px-4 py-8 md:py-24 flex flex-col md:flex-row items-center z-50">
       <div class="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
         <h1 class="text-4xl sm:text-6xl font-bold mb-8 text-center">
           Запишитесь на пробное занятие в 
