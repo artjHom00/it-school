@@ -29,9 +29,9 @@ defineProps({
     :class="[
       'inline-flex items-center justify-center rounded-lg font-medium cursor-pointer focus:outline-none focus:ring-0',
       {
-        'bg-blue-500 transition-shadow hover:shadow-[7px_7px_0px_0px_rgba(249,_115,_22,_0.8)] hover:bg-blue-600': variant === 'primary',
-        'bg-transparent border-2 border-blue-500 text-blue-500 hover:opacity-70': variant === 'outline',
-        'p-3 transition-all relative top-0 hover:top-[-1px]': variant === 'ghost',
+        'bg-blue-500 transition-shadow focus:shadow-[7px_7px_0px_0px_rgba(249,_115,_22,_0.8)] focus:bg-blue-600 hover:shadow-[7px_7px_0px_0px_rgba(249,_115,_22,_0.8)] hover:bg-blue-600': variant === 'primary',
+        'bg-transparent border-2 border-blue-500 text-blue-500 focus:opacity-70 hover:opacity-70': variant === 'outline',
+        'p-3 transition-all relative top-0 focus:top-[-1px] hover:top-[-1px]': variant === 'ghost',
         'opacity-50 cursor-not-allowed': disabled
       }
     ]"

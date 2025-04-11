@@ -20,7 +20,7 @@
           <UiButton variant="primary" class="mx-auto w-2/3 text-white font-bold py-3 px-8 rounded-lg text-lg mb-4 transition-colors">
             Начать
           </UiButton>
-          <NuxtLink to="#" class="mx-auto w-fit text-blue-500 hover:underline">
+          <NuxtLink to="#" class="mx-auto w-fit text-blue-500 focus:underline hover:underline">
             У меня уже есть аккаунт
           </NuxtLink>
         </div>
