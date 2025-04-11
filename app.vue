@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="h-screen relative bg-white dark:bg-zinc-900 transition-colors duration-100 text-gray-800 dark:text-white">
+  <div class="h-screen relative overflow-x-hidden bg-white dark:bg-zinc-900 transition-colors duration-100 text-gray-800 dark:text-white">
     <div class="absolute bottom-96 -left-3/7 w-3/5 h-[70vh] bg-blue-500/80 rounded-full blur-[999px] opacity-30 overflow-hidden"></div>
     <div class="absolute top-0 -right-1/2 w-1/2 h-[70vh] bg-blue-500/60 rounded-full blur-[999px] opacity-30 overflow-hidden"></div>
 
